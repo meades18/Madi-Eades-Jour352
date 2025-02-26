@@ -1,0 +1,35 @@
+/*
+MY COLOR PALETTE
+Color 1 - #161925
+Color 2 - #23395B
+Color 3 - #406E8E
+Color 4 - #8EA8C3
+Color 5 - #CBF7ED
+*/
+
+body {
+    background-color: #406e8e;
+    text-align: center;
+}
+button {
+    background-color: #23395b;
+    color: #cbf7ed;
+    font-family: "Lexend Deca", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    width: 400px;
+    padding: 27px;
+    margin: 20px;
+}
+button:hover {
+    background-color: #c08497;
+}
+h1 {
+    font-family: "Oswald", serif;
+    font-size: 75px;
+}
+h2 {
+    font-family: "Homenaje", serif;
+}
