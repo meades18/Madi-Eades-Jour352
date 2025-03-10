@@ -1,14 +1,68 @@
 h1{
     color:#322214;
     font-family: "Tinos", serif;
+    font-weight: 161;
+    font-size: 75px;
 }
 
 h2{
     font-family: "Markazi Text", serif;
+    font-size: 39px
+}
+
+button{
+    border-radius:17%;
+    border: medium;
+    font-family:"Tinos", serif;
+    font-weight: bold;
+    color:#4c443c;
+    background-color: #8a817c;
+    padding: 10px 50px 50px 10px;
+    width:270px;
+    height:100px;
+    margin: 20px auto 0px auto;
+    display:block;
+}
+button:hover {
+    background-color: #bcb8b1;
 }
 
 img {
-    width:75%
+    border-radius:7%; 
+    display:block; 
+    margin: 50px auto 0px auto; 
+    height: 400px;
+    
     
 
 }
+body {
+    background-color: #f4f3ee
+    
+}
+#navigation{
+    background-color:#5f544a;
+    color:#bcb8b1;
+    font-family:"Radio Canada", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+navigation:hover {
+    text-decoration: underline;
+}
+
+@media (min-width:576px) {
+    font-size: 100px; 
+    
+    
+}
+
+/*
+MY COLOR PALETTE
+Color 1 - #4c443c
+Color 2 - #f4f3ee
+Color 3 - #5f544a
+Color 4 - #8a817c
+Color 5 - #bcb8b1
+*/
