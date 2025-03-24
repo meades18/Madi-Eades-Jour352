@@ -47,8 +47,13 @@ img {
     border-radius: 77%;
     display: block;
     margin: 100px auto 25px 50px;
-    height: 280px;
+    height: 264px;
     border: 9px solid #8a817c;
+}
+@media (max-width: 768px) {
+    img{
+        height:197px
+    }
 }
 body {
     background-color: #f4f3ee;
@@ -68,10 +73,6 @@ body {
     text-decoration-color: #f4f3ee;
 }
 
-@media (min-width: 576px) {
-    font-size: 100px;
-}
-
 h3 {
     font-family: "Oranienbaum", serif;
     font-weight: 400;
@@ -88,6 +89,25 @@ h4 {
     text-decoration-color: #bcb8b1;
     padding-top: 10px;
     margin-left: 35px;
+}
+@media {
+    h4{
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: #bcb8b1;
+    padding-top: 10px;
+    margin-left: 35px;
+        
+    }
+}
+@media (min-width: 576px){
+    h4{
+        font-size:40px
+    }
 }
 
 .engagementeditor {
@@ -115,10 +135,11 @@ h4 {
 
 .dates {
     margin-left: 25px;
-    font-family: "Cardo", serif;
-    font-weight: 700;
+    margin-top:35px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 679;
     font-style: normal;
-    color: #354f52;
+    color: #5f544a;
     font-size: 30px;
 }
 
@@ -147,10 +168,11 @@ h4 {
 
 .dates2 {
     margin-left: 25px;
-    font-family: "Cardo", serif;
-    font-weight: 700;
+    margin-top:35px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 679;
     font-style: normal;
-    color: #354f52; 
+    color: #5f544a;
     font-size: 30px;
 }
 h5{
@@ -219,11 +241,11 @@ h6{
 
 .years{
     margin-left: 40px;
-    font-family: "Cardo", serif;
-    font-weight: 700;
+    font-family: "Oranienbaum", serif;
+    font-weight: 679;
     font-style: normal;
-    color: black; 
-    font-size: 25px; 
+    color: #5f544a;
+    font-size: 25px;
 }
 #footer{
   background-color: #5f544a;
@@ -232,7 +254,7 @@ h6{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-bottom: 10px;  
 }
 
