@@ -39,6 +39,11 @@ button {
     display: block;
     text-align: center;
 }
+
+button a {
+    color: #4c443c;
+    text-decoration: none;
+}
 button:hover {
     background-color: #bcb8b1;
 }
@@ -245,6 +250,10 @@ h6 {
     font-style: normal;
     color: #5f544a;
     font-size: 25px;
+}
+
+.years a {
+        color: #5f544a;
 }
 #footer {
     background-color: #5f544a;
